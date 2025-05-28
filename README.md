@@ -65,7 +65,7 @@ where `[directory-to-frames]` is the path to the parsed video frames generated d
 To evaluate specific methods and datasets individually, use:
 
 ```bash
-python evaluate_controller.py --dataset [dataset-name] --controller [controller-name] --visualize --asset_dir [directory-to-frames]
+python ./ecp/evaluate_controller.py --dataset [dataset-name] --controller [controller-name] --visualize --asset_dir [directory-to-frames]
 ```
 
 * `[dataset-name]`: `zara1`, `zara2`, `univ`, `eth`, or `hotel`
